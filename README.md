@@ -8,6 +8,7 @@
 =======
 My solutions to various [leetcode](https://leetcode.com) problems.
 
+<<<<<<< HEAD
 - [Leetcode Solutions](#leetcode-solutions)
   - [Array <a id="array"></a>](#array)
   - [Graph <a id="graph"></a>](#graph)
@@ -87,3 +88,10 @@ My solutions to various [leetcode](https://leetcode.com) problems.
 ## Trie <a id="trie"></a>
 - `1` [1268 Search Suggestions System](./medium/1268.cpp) [🔗](https://leetcode.com/problems/search-suggestions-system/)
 >>>>>>> 769bfd3 (Two pointers: easy 167, 283)
+=======
+- [AtCoder](https://github.com/ipflegen/cp/tree/atcoder)
+- [Baekjoon Online Judge](https://github.com/ipflegen/cp/tree/baekjoon)
+- [Daily Coding Problem (DCP)](https://github.com/ipflegen/cp/tree/dcp)
+- [LeetCode](https://github.com/ipflegen/cp/tree/leetcode)
+- [Programmers](https://github.com/ipflegen/cp/tree/programmers)
+>>>>>>> 983b5ef (Update README.md)
