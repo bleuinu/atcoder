@@ -5,17 +5,14 @@ class LRUCache
   end
 
   def get(key)
-    if @cache[key]
-      value = @cache[key]
-      @cache.delete(key)
-      @cache[key] = value
-      @cache.shift if @cache.length > @capacity
-      return value
-    else
-      return -1
-    end
-  end
+    return -1 if @cache[key] == nil
 
+    value = @cache[key]
+    @cache.delete(key)
+    @cache[key] = value
+    @cache.shift if @cache.length > @capacity
+    return value
+  end
 
   def put(key, value)
     @cache.delete(key)
