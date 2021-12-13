@@ -14,8 +14,9 @@ My solutions to various [leetcode](https://leetcode.com) problems.
   - [Hash <a id="hash"></a>](#hash)
   - [LinkedList <a id="linkedlist"></a>](#linkedlist)
   - [Math <a id="math"></a>](#math)
-  - [Search <a id="search"></a>](#stack)
+  - [Search <a id="search"></a>](#search)
   - [Stack <a id="stack"></a>](#stack)
+  - [Stack <a id="string"></a>](#string)
   - [Tree <a id="tree"></a>](#tree)
   - [Queue <a id="queue"></a>](#queue)
  
@@ -32,6 +33,7 @@ My solutions to various [leetcode](https://leetcode.com) problems.
 - `1` [167.  Two Sum II - Input Array Is Sorted](./easy/167.rb) [🔗](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
 - `2` [189. Rotate Array](./medium/189.rb) [🔗](https://leetcode.com/problems/rotate-array/)
 - `1` [283. Move Zeroes](./easy/283.rb) [🔗](https://leetcode.com/problems/move-zeroes/)
+- `1` [344. Reverse String](./easy/344.rb) [🔗](https://leetcode.com/problems/reverse-string/)
 - `1` [977. Squares of a Sorted Array](./easy/977.rb) [🔗](https://leetcode.com/problems/squares-of-a-sorted-array/)
 
 ## Graph <a id="graph"></a> 
@@ -68,6 +70,10 @@ My solutions to various [leetcode](https://leetcode.com) problems.
 - `2` [150. Evaluate Reverse Polish Notation](./medium/150.rb) [🔗](https://leetcode.com/problems/evaluate-reverse-polish-notation/)
 - `1` 155. Min Stack : [cpp](./easy/155.cpp) | [ruby](./easy/155.rb) [🔗](https://leetcode.com/problems/min-stack/)
 - `1` [1021. Remove Outermost Parentheses](./easy/1021.cpp) [🔗](https://leetcode.com/problems/remove-outermost-parentheses/)
+
+## String <a id="string"></a>
+- `1` [344. Reverse String](./easy/344.rb) [🔗](https://leetcode.com/problems/reverse-string/)
+- `1` [557. Reverse Words in a String III](./easy/557.cpp) [🔗](https://leetcode.com/problems/reverse-words-in-a-string-iii/)
 
 ## Tree <a id="tree"></a>
 - `1` [94. Binary Tree Inorder Traversal](./easy/94) [🔗](https://leetcode.com/problems/binary-tree-inorder-traversal/)
