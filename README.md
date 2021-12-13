@@ -52,6 +52,7 @@ My solutions to various [leetcode](https://leetcode.com) problems.
 - `2` 138. Copy List with Random Pointer: [1](./medium/138.rb) | [2](./medium/138-2.rb) [🔗](https://leetcode.com/problems/copy-list-with-random-pointer/)
 - `2` [148. Sort List](./medium/148.rb) [🔗](https://leetcode.com/problems/sort-list/)
 - `2` [328. Odd Even Linked List](./medium/328.rb) [🔗](https://leetcode.com/problems/odd-even-linked-list/)
+- `1` [876. Middle of the Linked List](./easy/876.rb) [🔗](https://leetcode.com/problems/middle-of-the-linked-list/)
 - `1` [1290. Convert Binary Number in a Linked List to Integer](./easy/1290) [🔗](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/)
 
 ## Math <a id="math"></a>
