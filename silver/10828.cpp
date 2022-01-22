@@ -1,8 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-#define ios cin.tie(NULL), ios_base::sync_with_stdio(false)
-
 int i;
 int arr[10001];
 
