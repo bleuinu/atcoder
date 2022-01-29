@@ -3,7 +3,9 @@ using namespace std;
 
 #define INF 0x7FFFFFFF
 
-void dijkstra(int V, int src, int x, vector<vector<pair<int,int> > > &graph)
+typedef vector<vector<int>> vvi;
+
+void dijkstra(int V, int src, int x, vvi &graph)
 {
   vector<int> dist(V, INF);
   dist[src] = 0;
@@ -18,11 +20,11 @@ void dijkstra(int V, int src, int x, vector<vector<pair<int,int> > > &graph)
 
     for(auto &v : graph[r])
     {
-      int cost = dist[r] + v.second;
-      if(dist[v.first] > cost)
+      int cost = dist[r] + 1;
+      if(dist[v] > cost)
       {
-        dist[v.first] = cost;
-        pq.push(v.first);
+        dist[v] = cost;
+        pq.push(v);
       }
     }
   }
@@ -37,20 +39,19 @@ void dijkstra(int V, int src, int x, vector<vector<pair<int,int> > > &graph)
 
   if(!printed) printf("-1\n");
 }
-int main() {
-  int city, road, dist, start;
-  scanf("%d%d%d%d", &city, &road, &dist, &start);
-  vector<vector<pair<int,int> > > graph(city+1);
 
-  for(int i=0; i<road; ++i) {
+int main() {
+  int n, m, k, s;
+  scanf("%d%d%d%d", &n, &m, &k, &s);
+  vvi graph(n+1);
+
+  for(int i=0; i<m; ++i) {
     int s, d;
     scanf("%d%d", &s, &d);
-    graph[s].push_back(make_pair(d, 1));
+    graph[s].push_back(d);
   }
 
-  dijkstra(city+1, start, dist, graph);
+  dijkstra(n+1, s, k, graph);
 
   return 0;
 }
-
-
