@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Competitive Programming
 
 <<<<<<< HEAD
@@ -95,3 +96,6 @@ My solutions to various [leetcode](https://leetcode.com) problems.
 - [LeetCode](https://github.com/ipflegen/cp/tree/leetcode)
 - [Programmers](https://github.com/ipflegen/cp/tree/programmers)
 >>>>>>> 983b5ef (Update README.md)
+=======
+# Codewars
+>>>>>>> e885b3f (codewars python 8kyu)
